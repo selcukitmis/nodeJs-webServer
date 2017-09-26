@@ -47,6 +47,13 @@ app.get("/about", (req, res) => {
   });
 });
 
+app.get("/projects", (req, res) => {
+  res.render("projects.hbs", {
+    pageTitle: "Page Title From Node Server",
+    currentYear: new Date().getFullYear()
+  });
+});
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
