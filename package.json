@@ -1,0 +1,8 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "express": "^4.15.5",
+    "hbs": "^4.0.1"
+  }
+}
