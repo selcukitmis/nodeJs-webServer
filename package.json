@@ -1,6 +1,11 @@
 {
-  "name": "",
+  "name": "Nodejs-web-server",
   "version": "",
+  "main": "2-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test\" && exit 1",
+    "start": "node 2-server.js"
+  },
   "dependencies": {
     "express": "^4.15.5",
     "hbs": "^4.0.1"
