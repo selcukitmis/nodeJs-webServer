@@ -40,6 +40,13 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/api", (req, res) => {
+  res.send({
+    name: "İlkay",
+    surname: "Öztürk"
+  });
+});
+
 app.get("/about", (req, res) => {
   res.render("about.hbs", {
     pageTitle: "Page Title From Node Server",
